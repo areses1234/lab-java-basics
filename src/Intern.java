@@ -14,11 +14,11 @@
           final int MAXINTERNSALARY = 20000;
 
           if (getSalaryOfEmployee()>MAXINTERNSALARY){
-              System.out.println("Intern "+getNameEmployee()+" age of "+getAge()+" in the "+getPositionEmployee()+
+              System.out.println("Presentation "+getNameEmployee()+" age of "+getAge()+" in the "+getPositionEmployee()+
                       " has a salary "+ getSalaryOfEmployee()+" it is over the limit ");
 
           }else{
-              System.out.println("Intern "+getNameEmployee()+" age of "+getAge()+" in the "+getPositionEmployee()+
+              System.out.println("Presentation "+getNameEmployee()+" age of "+getAge()+" in the "+getPositionEmployee()+
                       " has a salary "+ getSalaryOfEmployee()+" it is normal limit ");
               super.setSalaryOfEmployee(MAXINTERNSALARY);
           }
